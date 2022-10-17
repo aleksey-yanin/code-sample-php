@@ -1,0 +1,29 @@
+{
+  "name": "aleksey-yanin/code-sample-php",
+  "description": "Code Sample",
+  "type": "library",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Aleksey Yanin",
+      "email": "karel44@yandex.ru"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "Native\\ApiClient\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=5.6",
+    "ext-mbstring": "*",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "php-http/curl-client": "^1.7",
+    "guzzlehttp/psr7": "^1.4",
+    "php-http/message": "^1.6",
+    "php-http/client-common": "^1.7",
+    "facebook/webdriver": "^1.5"
+  }
+}
